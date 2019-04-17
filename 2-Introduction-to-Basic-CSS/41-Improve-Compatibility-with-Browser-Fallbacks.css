@@ -1,0 +1,13 @@
+/* It is important to provide browser fallbacks, as it is likely you will run into browser compatibility issues at some point. Your browser ignores any properties it doesn't recognize or support, but it's easy to add a more widely supported value before your declaration in case there's an issue.*/
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
