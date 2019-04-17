@@ -1,0 +1,10 @@
+/*An HTML's body element can be styled using CSS. If you style your body element all other elements will inherit your body's styles.*/
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+  <h1>Hello World</h1>
