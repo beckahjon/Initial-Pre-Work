@@ -1,0 +1,6 @@
+/*Every HTML page has a body element, and you can show it with a background color.*/
+<style>
+body {
+  background-color: black;
+}
+</style>
