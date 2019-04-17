@@ -1,0 +1,6 @@
+/*I learned you can also represent colors using RBG values. Instead of hex code, you use a three digit number to represent the brightness of each color.*/
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style> 
