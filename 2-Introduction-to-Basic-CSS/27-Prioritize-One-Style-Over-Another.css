@@ -1,0 +1,12 @@
+/*Sometimes multiple HTML styles will conflict with one another. The class overrode the body element.*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
