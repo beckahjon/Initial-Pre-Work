@@ -1,0 +1,15 @@
+/*In CSS classes will override body elements. In order to override the class, you must put the class you want second. The order is important, as the second class will always override the first.*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
