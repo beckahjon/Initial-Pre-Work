@@ -1,33 +1,23 @@
-/*You can also adjust the font weight, which is how thick or thin the characters are in a section of text.*/
+/*You can use a shortcut to define several flex properties at once. If you use the flex property, you can then set the grow, shrink, and basis properties in that order.*/
 <style>
-  h1 {
-    font-size: 68px;
-    font-weight: 800;
+  #box-container {
+    display: flex;
+    height: 500px;
   }
-  h2 {
-    font-size: 52px;
-    font-weight: 600;
+  #box-1 {
+    background-color: dodgerblue;
+    flex: 2 2 150px;
+    height: 200px;
   }
-  h3 {
-    font-size: 40px;
-    font-weight: 500;
-  }
-  h4 {
-    font-size: 32px;
-    font-weight: 400;
-  }
-  h5 {
-    font-size: 21px;
-    font-weight: 300;
-  }
-  h6 {
-    font-size: 14px;
-    font-weight: 200;
+
+  #box-2 {
+    background-color: orangered;
+    flex: 1 1 150px;
+    height: 200px;
   }
 </style>
-<h1>This is h1 text</h1>
-<h2>This is h2 text</h2>
-<h3>This is h3 text</h3>
-<h4>This is h4 text</h4>
-<h5>This is h5 text</h5>
-<h6>This is h6 text</h6>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
