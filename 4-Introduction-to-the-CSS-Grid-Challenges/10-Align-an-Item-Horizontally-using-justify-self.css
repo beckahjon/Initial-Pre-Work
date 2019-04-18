@@ -1,0 +1,35 @@
+/*The content of each item is in a box called a cell. You can align the content's position within its cell using the justify-self property. This will align the content horizontally. You can also use start, center, or end values.*/
+<style>
+  .item1{background: LightSkyBlue;}
+
+  .item2 {
+    background: LightSalmon;
+    /* add your code below this line */
+    justify-self: center;
+
+    /* add your code above this line */
+  }
+
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>
