@@ -1,3 +1,4 @@
-// Please remember to include a summary statement with EACH FILE regarding what you learned from the lesson in this format!  I recommend keeping it at the top of each file for faster processing of your application.
-
-// Copy your code from the central panel of the freeCodeCamp page and paste it below after successfully passing the test.  You will have to click on the X at the top right of the modal that pops up to see the code. If you forget, just rerun the test.  You are also welcome to download your solution.
+//Comments in JavaScript are lines of code that are ignored. They are helpful to leave notes for yourself and others to know what a certain set of code does. You can use both inline or multi-line comments.//
+//I don't really want to go to that meeting today.
+/*I am pretty sure
+that I should eat dinner before rehearsal.*/
