@@ -1,0 +1,11 @@
+//A "do-while" loop will do one pass of the loop and then runs while a condition is true. It will stop when that condition is no longer true. A "do-while" loop ensures the code within the loop will run at least once.
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+}
+while (i < 11)
